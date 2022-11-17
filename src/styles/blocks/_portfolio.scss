@@ -1,0 +1,45 @@
+.reviews {
+  padding: 130px 0 82px;
+}
+
+.portfolio-inner{
+  @include inner
+}
+
+.portfolio-title {
+  margin: 130px 0 100px;
+  font-family: $font;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 87px;
+  text-align: center;
+}
+
+.portfolio-list {
+  display: flex;
+  margin: 0 -10px 120px;
+}
+
+.portfolio-photo {
+  flex-basis: 25%;
+  margin: 0 10px;
+
+  a {
+    position: relative;
+  }
+}
+
+.portfolio-photo-desc {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 15px 0;
+  color: $color-light;
+  text-align: center;
+  font-family: $font;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 33px;
+  background-color: rgba(0, 0, 0, 0.4);
+}

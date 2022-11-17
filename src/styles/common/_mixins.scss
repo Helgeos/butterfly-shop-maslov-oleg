@@ -1,0 +1,31 @@
+@mixin inner($width: 1276px) {
+  max-width: $width + $gap;
+  margin: 0 auto;
+  padding: 0 $gap-half;
+  border: 1px solid red;
+}
+
+@mixin btn {
+  display: block;
+  padding: 30px 46px;
+  min-width: 497px;
+  color: #fff;
+  font-family: $font;
+  font-size: 42px;
+line-height: 57px;
+text-align: center;
+  background-color: $color-base;
+  border-radius: 6px;
+  border: 0px solid $color-base;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+@mixin section-title {
+  font-family: $font;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 87px;
+  color: $color-dark;
+  text-align: center;
+}

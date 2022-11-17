@@ -1,0 +1,29 @@
+.footer{
+  width: 100%;
+  background-color: $color-dark;
+  color: $color-light;
+}
+
+.footer-inner {
+  @include inner;
+}
+
+.footer-wrap {
+  display: flex;
+  align-items: center;
+
+  @media (max-width: $mobile-max) {
+    flex-direction: column-reverse;
+  }
+}
+
+.footer-logo{
+  padding: 31px 0;
+}
+
+.footer-phone {
+  color: $color-light;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 38px;
+}

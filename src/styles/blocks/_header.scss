@@ -1,0 +1,33 @@
+.header {
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 1000;
+  width: 100%;
+  background-color: $color-dark;
+  color: $color-light;
+}
+
+.header-inner{
+  @include inner
+}
+
+.header-wrap {
+  display: flex;
+  align-items: center;
+}
+
+.header-logo {
+  margin-right: auto;
+  font-size: 42px;
+  line-height: 57px;
+  color: $color-light;
+  font-family: $font;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.header-burger {
+  display: none;
+}
+
