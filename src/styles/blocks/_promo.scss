@@ -4,6 +4,15 @@
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
+
+  @media (max-width: $tablet-max) {
+    padding: 180px 0;
+  }
+
+  @media (max-width: $mobile-max) {
+    padding: 110px 0;
+    text-align: center;
+  }
   }
 
 
